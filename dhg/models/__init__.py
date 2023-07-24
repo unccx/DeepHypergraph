@@ -1,5 +1,5 @@
 from .graphs import GCN, GraphSAGE, GAT, GIN, NGCF, LightGCN, BGNN_Adv, BGNN_MLP
-from .hypergraphs import HGNN, HGNNP, HNHN, HyperGCN, DHCF, UniGCN, UniGAT, UniSAGE, UniGIN
+from .hypergraphs import HGNN, HGNNP, HNHN, HyperGCN, DHCF, UniGCN, UniGAT, UniSAGE, UniGIN, HGNNPLinkPred
 
 __all__ = [
     "GCN",
@@ -19,4 +19,5 @@ __all__ = [
     "UniGAT",
     "UniSAGE",
     "UniGIN",
+    "HGNNPLinkPred"
 ]
