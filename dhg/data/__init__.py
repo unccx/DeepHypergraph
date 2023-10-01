@@ -8,7 +8,7 @@ from .walmart import WalmartTrips
 from .white_house import HouseCommittees
 from .news import News20
 from .coauthorship import CoauthorshipCora, CoauthorshipDBLP
-from .dblp import DBLP8k
+from .dblp import DBLP4k, DBLP8k
 from .cocitation import CocitationCora, CocitationCiteseer, CocitationPubmed
 from .blogcatalog import BlogCatalog
 from .flickr import Flickr
@@ -18,6 +18,7 @@ from .tencent import TencentBiGraph
 from .cora import Cora, CoraBiGraph
 from .citeseer import Citeseer, CiteseerBiGraph
 from .pubmed import Pubmed, PubmedBiGraph
+from .imdb import IMDB4k
 
 __all__ = [
     "BaseData",
@@ -39,6 +40,7 @@ __all__ = [
     "PubmedBiGraph",
     "CoauthorshipCora",
     "CoauthorshipDBLP",
+    "DBLP4k",
     "DBLP8k",
     "CocitationCora",
     "CocitationCiteseer",
@@ -47,4 +49,5 @@ __all__ = [
     "WalmartTrips",
     "HouseCommittees",
     "News20",
+    "IMDB4k",
 ]
